@@ -1,0 +1,11 @@
+unit = input("Celsius or Fahrenhit (C/F): ")
+temperature = float(input("Enter the temperature: "))
+
+if unit == "F":
+    temperature = round((9*temperture)/5+32, 2)
+    print(f"The temperature in Fahrenhit is:{temperature}°F")
+elif unit == "C":
+    temperature = round((temperature - 32)*5/9, 2)
+    print(f"The temperature in Celsius is:{temperature}°C")
+else:
+    print(f"{unit} is an invalid for unit measurement")
